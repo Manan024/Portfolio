@@ -1,0 +1,98 @@
+/* index.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a;
+  color: #e2e8f0; /* Fixed RGB syntax */
+  margin: 0;
+  padding: 20px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 700px;
+  width: 100%;
+}
+
+a {
+  color: #f5f5f5;
+  text-decoration: none; /* Added for better link styling */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px; /* Better spacing */
+}
+
+.header h1 {
+  font-size: 24px;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px; /* Better icon spacing */
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+}
+
+.section {
+  margin-top: 25px;
+}
+
+.section h2 {
+  font-size: 18px;
+  border-bottom: 2px solid #444;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #2d3748; /* Darker tag background */
+  color: #f5f5f5; /* Light text */
+  padding: 4px 8px;
+  margin: 4px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.project h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.project p {
+  margin: 5px 0 10px;
+  font-size: 13px;
+}
+
+/* Added for about list */
+.about-list {
+  list-style: none;
+  padding-left: 1.2em;
+}
+
+.about-list li {
+  position: relative;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.about-list li::before {
+  content: "•";
+  position: absolute;
+  left: -1em;
+  font-size: 1.2em;
+  color: #f5f5f5;
+}
